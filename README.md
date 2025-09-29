@@ -1,6 +1,6 @@
-# BC | Angular Portfolio App
+# AK | Portfolio App
 
-This is my personal portfolio website built with **Angular 19**, Typescript, HTML5, CSS3, Bootstrap, Bootstrap Icons, RxJS, Vite, Angular Material and tests in Jasmine. It's currently deployed on the web: [https://angular-portfolio-app-omega.vercel.app/](https://angular-portfolio-app-omega.vercel.app/)
+This is my personal portfolio website built with **Angular 19**, Typescript, HTML5, CSS3, Bootstrap, Bootstrap Icons, RxJS, Vite, Angular Material and tests in Jasmine. It's currently deployed on the web: [https://angular-portfolio-app-omega.vercel.app/](https://portfolio-ruddy-alpha-h0xq4rmv71.vercel.app/)
 
 ![Barbara Calderon's Angular Portfolio App](portfolio.png)
 
@@ -12,11 +12,10 @@ _This project's last tag for Angular 17 was tag v1.3.0, you can download and use
 
 ## Author
 
-I'm Barbara Calderon, a software developer.
+I'm Ayan Khan, a software developer.
 
-- [Github](https://www.github.com/barbaracalderon)
-- [Linkedin](https://www.linkedin.com/in/barbaracalderondev/?locale=en_US)
-- [Twitter](https://www.x.com/bederoni)
+- [Github](https://github.com/AyanKhan98)
+- [Linkedin](https://www.linkedin.com/in/ayan-khan-dotnet)
 
 ## The Project
 
