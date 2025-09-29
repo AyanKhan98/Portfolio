@@ -2,7 +2,7 @@
 
 This is my personal portfolio website built with **Angular 19**, Typescript, HTML5, CSS3, Bootstrap, Bootstrap Icons, RxJS, Vite, Angular Material and tests in Jasmine. It's currently deployed on the web: [https://angular-portfolio-app-omega.vercel.app/](https://portfolio-ruddy-alpha-h0xq4rmv71.vercel.app/)
 
-![Barbara Calderon's Angular Portfolio App](portfolio.png)
+![Barbara Calderon's Angular Portfolio App](portfolio.jpeg)
 
 This project was originally generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.7 and then upgraded to version 19.2.7 on April 2025. Check [version history](#version-history) for more information.
 
