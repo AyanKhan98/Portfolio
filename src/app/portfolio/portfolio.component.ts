@@ -191,7 +191,7 @@ export class PortfolioComponent {
 
 
   constructor(private titleService: Title) {
-    this.titleService.setTitle('BC | Portfolio')
+    this.titleService.setTitle('AK | Portfolio')
   }
 
   trackById(index: number, project: Card): number {
