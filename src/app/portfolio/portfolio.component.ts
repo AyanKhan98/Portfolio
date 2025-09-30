@@ -21,7 +21,7 @@ export class PortfolioComponent {
       summary: "A First person shooter game where you have to kill all sinister robots to complete the levels. It is build on Unreal Engine 5 and C# as the coding language. You can download it from https://ayankhan97.itch.io/roboshooter",
       description: "A First person shooter game where you have to kill all sinister robots to complete the levels. It is build on Unreal Engine 5 and C# as the coding language. You can download it from https://ayankhan97.itch.io/roboshooter",
       projectLink: 'https://ayankhan97.itch.io/roboshooter',
-      tags: [Tag.GOLANG],
+      tags: [Tag.UNREAL],
       pictures: ["../../assets/gi.png"]
     },
     {

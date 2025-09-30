@@ -39,7 +39,8 @@ export class Tag {
     static readonly SQLITE = new Tag('SQLite', '#355158');
     static readonly PYDANTIC = new Tag('Pydantic', '##4a6a77');
     static readonly GOLANG = new Tag('Golang', '#457189');
-    static readonly RABBITMQ = new Tag('RabbitMQ', '#457189' )
+    static readonly RABBITMQ = new Tag('RabbitMQ', '#457189' );
+    static readonly UNREAL = new Tag('UNREAL ENGINE 5', '#5a7581');
 
 
 
