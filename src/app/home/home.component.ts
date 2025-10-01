@@ -42,7 +42,7 @@ export class HomeComponent implements OnInit {
 
   ngOnInit(): void {
     this.type();
-      if(this.domainService.Domain() === "goutamKhan-portfolio")
+      if(this.domainService.Domain() === "goutamkhan-portfolio.vercel.app")
       {
           this.name = "Goutam Khan"
       }
