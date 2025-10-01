@@ -21,7 +21,7 @@ export class AppComponent implements OnInit {
 
     ngOnInit(): void {
       const referrer = document.referrer;
-      if (referrer && referrer.includes('goutamkhan-portfolio.vercel.app/')) {
+      if (referrer && referrer.includes('goutamkhan-portfolio.vercel.app')) {
         this.redirectService.setRedirected(true);
         console.log('User was redirected from olddomain.com');
       }
