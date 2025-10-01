@@ -1,8 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { ContentComponent } from './content/content.component';
-import { RedirectService } from './services/redirect.service';
 
 @Component({
   selector: 'app-root',
@@ -15,15 +14,5 @@ import { RedirectService } from './services/redirect.service';
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
-export class AppComponent implements OnInit {
-    
-    constructor(private redirectService: RedirectService) {}
-
-    ngOnInit(): void {
-      const referrer = document.referrer;
-      if (referrer) {
-        this.redirectService.setRedirected(true);
-        console.log('User was redirected from olddomain.com');
-      }
-    }
+export class AppComponent {
 }

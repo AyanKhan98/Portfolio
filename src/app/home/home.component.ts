@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Title } from '@angular/platform-browser';
 import { RouterLink } from '@angular/router';
+import { DomainService } from '../services/domain.service';
 
 @Component({
   selector: 'app-home',
@@ -26,6 +27,7 @@ export class HomeComponent implements OnInit {
     "Code Enthusiast.",
   ];
 
+  name = "Ayan Khan";
   currentPhraseIndex: number = 0;
   currentCharIndex: number = 0;
   isDeleting: boolean = false;
@@ -33,13 +35,17 @@ export class HomeComponent implements OnInit {
   deletingSpeed: number = 100;
   delayBetweenPhrases: number = 2000;
 
-  constructor(private titleService: Title) {
+  constructor(private titleService: Title, private domainService: DomainService) {
     this.titleService.setTitle('AK | Home')
   }
 
 
   ngOnInit(): void {
     this.type();
+      if(this.domainService.Domain() === "goutamKhan-portfolio")
+      {
+          this.name = "Goutam Khan"
+      }
   }
 
   type() {
