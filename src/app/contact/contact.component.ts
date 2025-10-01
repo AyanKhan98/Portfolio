@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Title } from '@angular/platform-browser';
+import { DomainService } from '../services/domain.service';
 
 @Component({
   selector: 'app-contact',
@@ -11,7 +12,15 @@ import { Title } from '@angular/platform-browser';
   ]
 })
 export class ContactComponent {
-  constructor(private titleService: Title) {
-    this.titleService.setTitle('AK | Contact')
+  name = "ayan_khan"
+  email = "ayankhann98@gmail.com"
+  constructor(private titleService: Title, private domainService: DomainService)
+  {
+    this.titleService.setTitle('AK | Contact');
+    if(domainService.Domain() === "goutamkhan-portfolio.vercel.app")
+    {
+        this.name = "goutam_Khan";
+        this.email = "goutamkhan2222@gmail.com";
+    }
   }
 }

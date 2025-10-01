@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { Title } from '@angular/platform-browser';
 import { RouterLink } from '@angular/router';
+import { DomainService } from '../services/domain.service';
 
 
 @Component({
@@ -13,7 +14,14 @@ import { RouterLink } from '@angular/router';
   ]
 })
 export class AboutComponent {
-  constructor(private titleService: Title) {
-    this.titleService.setTitle('AK | About')
+  name = "Ayan Khan";
+  constructor(private titleService: Title, private domainService: DomainService) {
+    this.titleService.setTitle('AK | About');
+      
+      if(this.domainService.Domain() === "goutamkhan-portfolio.vercel.app")
+      {
+          this.name = "Goutam Khan"
+      }
+      
   }
 }
